@@ -36,7 +36,7 @@ public class ContaTest extends BaseTest {
 		contasPage.SetNome(Propriedades.NOME_CONTA_ALTERADA);
 
 		contasPage.salvar();
-
+		// contasPage.alterarclick2();
 		Assert.assertEquals("Conta alterada com sucesso!", contasPage.ObterMensagemSucesso());
 
 	}
