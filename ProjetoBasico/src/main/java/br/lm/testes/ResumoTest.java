@@ -39,6 +39,8 @@ public class ResumoTest extends BaseTest {
 		List<WebElement> elementosEncontrados = getDriver().findElements(By.xpath("//*[@id='tabelaExtrato']/tbody/tr"));
 		Assert.assertEquals(0, elementosEncontrados.size());
 		
+// alteracao commit teste
+
 		}
 	}
 
