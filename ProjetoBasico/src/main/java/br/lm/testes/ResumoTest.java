@@ -25,7 +25,7 @@ public class ResumoTest extends BaseTest {
 		menuPage.acessarTelaResumo();
 		resumoPage.excluirMovimentacao();
 
-		Assert.assertEquals("Movimentação removida com sucesso!", resumoPage.ObterMensagemSucesso());
+		Assert.assertEquals("Movimentaï¿½ï¿½o removida com sucesso!", resumoPage.ObterMensagemSucesso());
 
 	}
 
@@ -34,11 +34,13 @@ public class ResumoTest extends BaseTest {
 		menuPage.acessarTelaResumo();
 
 		Assert.assertEquals("Seu Barriga - Extrato", getDriver().getTitle());
-
+// comentario git teste2
 				
 		List<WebElement> elementosEncontrados = getDriver().findElements(By.xpath("//*[@id='tabelaExtrato']/tbody/tr"));
 		Assert.assertEquals(0, elementosEncontrados.size());
 		
+// alteracao commit teste
+
 		}
 	}
 
